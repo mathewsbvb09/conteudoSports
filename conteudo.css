@@ -10,7 +10,7 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
 
 .principal{
 
-    background-color: rgb(253, 24, 24);
+    background-color: rgb(255, 0, 0);
 }
 
 .rodape {
@@ -70,10 +70,10 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
     }
     
     .conteudo.verde > ul > li:hover {
-        background-color: rgb(241, 28, 0);
+        background-color: rgb(255, 0, 0);
     }
     
 
     .conteudo.verde { border: 2px solid #000000; }
-    .conteudo.verde > h3 { background-color: #b10606; }
+    .conteudo.verde > h3 { background-color: #f70707; }
 
