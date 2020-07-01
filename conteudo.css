@@ -39,7 +39,7 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
         flex-basis: 32%;
         margin-bottom: 20px;
         border-radius: 5px;
-        background-color: rgb(69, 69, 228);
+        background-color: rgb(28, 28, 243);
     }
     
     .conteudo.verde > h3 {
