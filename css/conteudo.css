@@ -11,6 +11,7 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
 .principal{
 
     background-color: rgb(255, 255, 255);
+ 
 }
 
 .rodape {
@@ -18,10 +19,11 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     font-size: 1.2rem;
     padding-right: 20px;
     color: rgb(255, 255, 255);
+   
 }
     .cabecalho{
     background-color: rgb(255, 255, 255);
@@ -32,7 +34,8 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        color: rgb(247, 243, 243)28, 202);
+        color: rgb(255, 255, 255);
+        
     }
     
     .conteudo.verde{
@@ -40,6 +43,7 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
         margin-bottom: 20px;
         border-radius: 5px;
         background-color:rgb(255, 255, 255);
+       
     }
     
     .conteudo.verde > h3 {
@@ -49,28 +53,33 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
         font-size: 1.5rem;
         padding: 10px 20px;
         background-color: #ffffff;
+        float: left;
     }
     
     .conteudo.verde > ul {
         margin: 0px;
         padding: 10px;
         list-style: none;
+        float: left;
     }
     
     .conteudo.verde> ul > li {
         padding: 7px;
         font-size: 1.2rem;
         cursor: pointer;
+        float: left;
     }
     
     .conteudo.verde > ul > li > a {
         display: flex;
         text-decoration: none;
         color: rgb(39, 38, 38);
+        float: left;
     }
     
     .conteudo.verde > ul > li:hover {
         background-color: rgb(255, 255, 255);
+        float: left;
     }
     
 
