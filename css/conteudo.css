@@ -2,7 +2,7 @@
 height: 100vh;
 margin: 0px;
 display: grid;
-background-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
 grid-template-columns: 1fr;
 grid-template-rows: 120px 1fr 60px;
 grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
@@ -10,21 +10,21 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
 
 .principal{
 
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .rodape {
     grid-area: rodape;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 1.2rem;
     padding-right: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
     .cabecalho{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     }
 
 
@@ -32,23 +32,23 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        color: chartreuse;
+        color: rgb(247, 243, 243)28, 202);
     }
     
     .conteudo.verde{
         flex-basis: 32%;
         margin-bottom: 20px;
         border-radius: 5px;
-        background-color:rgb(64, 152, 235);
+        background-color:rgb(255, 255, 255);
     }
     
     .conteudo.verde > h3 {
         margin: 0px;
-        color: rgb(231, 107, 107);
+        color: rgb(248, 248, 248);
         font-weight: 300;
         font-size: 1.5rem;
         padding: 10px 20px;
-        background-color: #000000;
+        background-color: #ffffff;
     }
     
     .conteudo.verde > ul {
@@ -70,10 +70,10 @@ grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
     }
     
     .conteudo.verde > ul > li:hover {
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
     }
     
 
-    .conteudo.verde { border: 2px solid #000000; }
-    .conteudo.verde > h3 { background-color: #000000; }
+    .conteudo.verde { border: 2px solid #ffffff; }
+    .conteudo.verde > h3 { background-color: #ffffff; }
 
