@@ -8,6 +8,7 @@ grid-template-columns: 1fr;
 grid-template-rows: 120px 1fr 60px;
 grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
 } 
+
 .cabecalho{
 
     background-color: transparent;
