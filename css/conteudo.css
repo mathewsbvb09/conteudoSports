@@ -2,29 +2,30 @@ body {
 height: 100vh;
 margin: 10px;
 display: grid;
-background-color:transparent;
 background-image: url("../imagens/grama.jpg");
 grid-template-columns: 1fr;
 grid-template-rows: 120px 1fr 60px;
 grid-template-areas:"cabecalho", "rodape", "conteudo","principal";
-} 
+
+}
 
 .cabecalho{
-
+fill-opacity: unset;
     background-color: transparent;
     justify-content: flex-start;
     text-align-last: start;
+    backface-visibility: visible;
 }
 
 
 .rodape {
     grid-area: rodape;
-    background-color:transparent;
+    background-color:black;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size: 1.5rem;
-    padding-right: 20px;
+    font-size: 1.8rem;
+    padding-right: 25px;
     color: rgb(255, 255, 255);
    
 }
