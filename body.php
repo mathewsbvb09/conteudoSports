@@ -1,20 +1,9 @@
-<!-- header.php-->
-<!DOCTYPE html>
-<html lang="pt_BR">
-    <head>
-<meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-<link rel="stylesheet" href="css/conteudo.css">
-<title>conteudo sports</title>
-</head>
-
-<!-- body.php-->
 <body>
 <header>
     
    <h1><div class="cabecalho"> 
     <div style="font-size: 30px;">
-<div style= "color:rgb(0, 0, 0);">FUTEBOL EUROPEU</div></h1>
+<div style= "color:rgb(0, 0, 0);"> <?php echo "futebol Europeu" ?></div></h1>
 <h1><div style="font-size: 20px;">TABELA DOS CAMPEONATOS E DOS JOGOS COM TRANSMISSÃO</div></h1>
 <main class="principal">
     <div class="conteudo">
@@ -30,8 +19,3 @@
             </div>
         </main>
 </header>
-<!-- footer.php-->
-<footer class="rodape"><DIV style= "color:rgb(255, 255, 255);">conteudosports©2020</DIV>
-</footer>
-</body>
-</html>
